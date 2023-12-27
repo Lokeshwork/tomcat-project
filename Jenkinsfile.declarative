@@ -1,0 +1,33 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main', credentialsId: 'github', url: 'https://github.com/Lokeshwork/tomcat-project.git'
+            }
+        }
+    
+        stage('Test') {
+            steps {
+                echo 'This is Test Stage'
+            }
+        }
+
+
+        stage('Build') {
+            steps {
+                sh 'mvn clean package'
+            }
+        }
+
+        
+        stage('Deploy') {
+            steps {
+                sh 'sudo cp /home/git/tomcat-project/target/TomcatMavenApp-2.0.war /opt/tomcat/apache-tomcat-9.0.84/webapps'
+            }
+        }
+
+    }
+
+}
