@@ -22,7 +22,7 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-<!-- Commenting to test the webhook -->
+<!-- Commenting to test the webhook - take 2-->
     <build>
         <plugins>
             <plugin>
