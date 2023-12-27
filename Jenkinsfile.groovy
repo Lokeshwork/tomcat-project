@@ -1,7 +1,7 @@
 node {
     
     stage('Checkout') {
-        git branch: 'main', credentialsId: 'github', url: 'https://github.com/Lokeshwork/tomcat-project.git'
+        git branch: 'main', url: 'https://github.com/Lokeshwork/tomcat-project.git'
   }
     
     stage('Test') {
