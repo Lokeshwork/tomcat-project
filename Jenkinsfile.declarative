@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'github', url: 'https://github.com/Lokeshwork/tomcat-project.git'
+                git branch: 'main', url: 'https://github.com/Lokeshwork/tomcat-project.git'
             }
         }
     
