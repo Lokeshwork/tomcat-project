@@ -1,0 +1,41 @@
+[33mcommit eacd5805125f882cf1e02d2e24320c9306a835ca[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mqa[m[33m, [m[1;32mprod[m[33m, [m[1;32mdev[m[33m)[m
+Author: Lokeshwork <122160825+Lokeshwork@users.noreply.github.com>
+Date:   Thu Dec 28 00:34:04 2023 +0530
+
+    Update Jenkinsfile.groovy
+
+[33mcommit 7954d4d532aded289943f08242a3131c0a99c3bc[m
+Author: Lokeshwork <122160825+Lokeshwork@users.noreply.github.com>
+Date:   Thu Dec 28 00:33:47 2023 +0530
+
+    Update Jenkinsfile.declarative
+
+[33mcommit ac82cf371bb6f53f41731e250857dcfc5ecc2a57[m
+Author: Lokeshwork <122160825+Lokeshwork@users.noreply.github.com>
+Date:   Thu Dec 28 00:15:34 2023 +0530
+
+    Create Jenkinsfile.groovy
+
+[33mcommit 6aebbaad64083efead81c43682dbd998451d5cdc[m
+Author: Lokeshwork <122160825+Lokeshwork@users.noreply.github.com>
+Date:   Thu Dec 28 00:06:23 2023 +0530
+
+    Create Jenkinsfile.declarative
+
+[33mcommit 0b0f26db4d831c44b5a819cb15e3e38785bd4559[m
+Author: DevOpsHint <83763090+devopshint@users.noreply.github.com>
+Date:   Thu Sep 21 12:44:14 2023 +0530
+
+    Update index.html
+
+[33mcommit 66a563e70166abac6a228aed997c3289cfa27820[m
+Author: devopshint <devopshint@gmail.com>
+Date:   Wed Sep 20 12:12:20 2023 +0530
+
+    commit
+
+[33mcommit 551b8eb87a4ac87b8b215f0ba2a80fbbaeb8105c[m
+Author: DevOpsHint <83763090+devopshint@users.noreply.github.com>
+Date:   Wed Sep 20 12:01:26 2023 +0530
+
+    Initial commit
