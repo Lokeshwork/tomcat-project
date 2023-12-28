@@ -13,6 +13,6 @@ node {
     }
  
     stage('Deploy') {
-        sh 'sudo cp /home/git/tomcat-project/target/TomcatMavenApp-2.0.war /opt/tomcat/apache-tomcat-9.0.84/webapps'
+        sh 'sudo cp /home/git/tomcat-project/target/TomcatMavenApp-2.0.war /home/ec2-user/apache-tomcat-9.0.84/webapps'
     }
 }
