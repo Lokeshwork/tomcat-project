@@ -1,6 +1,5 @@
-node {
-    
-    stage('Checkout') {
+node('agent2') {
+        stage('Checkout') {
         git branch: 'main', url: 'https://github.com/Lokeshwork/tomcat-project.git'
   }
     
